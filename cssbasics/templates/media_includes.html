@@ -1,0 +1,8 @@
+{% overextends "media_includes.html" %}
+
+
+{% block public_css %}
+    {{ block.super }}
+    <link href="{{STATIC_URL}}cssbasics/reset.css" type="text/css" rel="stylesheet">
+    <link href="{{STATIC_URL}}cssbasics/styles.css" type="text/css" rel="stylesheet">
+{% endblock %}
