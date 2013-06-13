@@ -20,7 +20,6 @@ setup(
     url="https://github.com/schnapptack/django-productline-cssbasics",
     packages=find_packages(),
     package_dir={'cssbasics': 'cssbasics'},
-    package_data={'cssbasics': []},
     include_package_data=True,
     scripts=[],
     zip_safe=False,
