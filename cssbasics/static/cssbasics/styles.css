@@ -50,24 +50,15 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 input[type="submit"], 
 input[type="button"],
 input[type="submit"], input[type="button"] {
-    margin:0px;
-    padding: 9px 12px 9px 12px !important;font-size: 13px;line-height: 18px;text-align: center; 
-    vertical-align: middle; cursor: pointer; color: #666; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
-    background-color: whiteSmoke; text-decoration: none; display:inline-block;
-    background-image: -moz-linear-gradient(top, white, #E6E6E6);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#E6E6E6));
-    background-image: -webkit-linear-gradient(top, white, #E6E6E6);
-    background-image: -o-linear-gradient(top, white, #E6E6E6);
-    background-image: linear-gradient(to bottom, white, #E6E6E6);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
-    border-color: #E6E6E6 #E6E6E6 #BFBFBF; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-    border: 1px solid #ddd; border-bottom-color: #ddd;
-    -webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+    font: 12px Helvetica, Arial, sans-serif;text-decoration: none; letter-spacing:normal; color: #666;font-weight:bold;
+    background: #f3f3f3; background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1)); background-repeat:no-repeat; 
+    padding: 15px 38px ;; margin-right: 10px;
+    position: relative; display: inline-block;
+    text-shadow: 0 1px 0 #fff; letter-spacing: normal;
+    -webkit-transition: border-color .218s; -moz-transition: border .218s; -o-transition: border-color .218s; transition: border-color .218s;
+    border: solid 1px #dcdcdc;border-radius: 2px; -webkit-border-radius: 2px;-moz-border-radius: 2px;outline:0;
+    background-image-position: 10px 6px; cursor:pointer;
 }
 .buttons a.deletelink,
 input[type="submit"].deletelink {display:inline-block; 
@@ -79,10 +70,10 @@ input[type="submit"].deletelink {display:inline-block;
     background-image: linear-gradient(to bottom, #EE5F5B, #BD362F);
 }
 
-.buttons a:hover
- {
-    color: #333;
+.buttons a:hover, input[type="submit"]:hover, button:hover {color: @color-hover; border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
+
 .buttons a.deletelink:hover,
 input[type="submit"].deletelink:hover {
     color:#fff; background-color: #DA4F49;
@@ -92,27 +83,8 @@ input[type="submit"].deletelink:hover {
     background-image: -o-linear-gradient(top, #BD362F, #EE5F5B);
     background-image: linear-gradient(to bottom, #BD362F, #EE5F5B);
 }
-
-input[type="submit"] {
-    color:#fbfbfb;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    background-color: #006DCC;
-background-image: -moz-linear-gradient(top, #106307, #0B4704);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#106307), to(#0B4704));
-background-image: -webkit-linear-gradient(top, #106307, #0B4704);
-background-image: -o-linear-gradient(top, #106307, #0B4704);
-background-image: linear-gradient(to bottom, #106307, #0B4704);
-background-repeat: repeat-x;
-border-color: #04C #04C #002A80;
-border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
-filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-}
-
-input[type="submit"]:hover {
-  color: #ffffff;
-  background-color: #0044cc;
-  *background-color: #003bb3;
-}
+input[type="submit"] {}
+input[type="submit"]:hover {}
 
 
 
