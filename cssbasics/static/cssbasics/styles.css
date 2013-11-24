@@ -4,7 +4,7 @@
 .float-right {float:right;}
 .clear {clear:both;}
 
-
+p {margin-bottom: 10px;}
 
 
 .note {border: 1px solid #ddd; background:#FCFCEB; padding:22px;}
@@ -43,8 +43,8 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 /* BUTTONS
 -------------------------------------------------------------------------------------------*/
 
-.buttons.mega a,
-.buttons.mega input[type="submit"] {font-size:17px !important; padding: 16px 22px 16px 22px !important;}
+.buttons.small a,
+.buttons.small input[type="submit"] { padding: 6px 12px !important;  font-size:11px !important;}
 
 .buttons a,
 input[type="submit"], 
