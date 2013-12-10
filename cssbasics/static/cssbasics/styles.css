@@ -8,8 +8,10 @@ p {margin-bottom: 10px;}
 
 
 .note {border: 1px solid #ddd; background:#FCFCEB; padding:22px;}
-
-
+.note-warning {border: 2px solid #A8A59D; padding:22px; width:644px; background: #FFFBF2; line-height:1.4;}
+.note-warning .fa {font-size:33px; color: #FFC400; float:left; margin-right:12px;}
+.note-warning h1,
+.note-warning h2 {margin-top:0px !important; }
 
 /* FORM STYLING
 -------------------------------------------------------------------------------------------*/
