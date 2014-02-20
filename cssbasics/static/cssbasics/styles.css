@@ -58,7 +58,9 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
     .buttons a,
     input[type="submit"], 
     input[type="button"],
-    input[type="submit"], input[type="button"] {
+    input[type="submit"], 
+    input[type="button"], 
+    .buttons button[type="submit"] {
         font: 12px Helvetica, Arial, sans-serif;text-decoration: none; letter-spacing:normal; color: #666;font-weight:bold;
         background: #f3f3f3; background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
         background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1)); background-repeat:no-repeat; 
@@ -104,7 +106,8 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
     
      .buttons.dark a,
      .buttons.dark input[type="submit"], 
-    .buttons.dark input[type="button"] {
+    .buttons.dark input[type="button"],
+    .buttons.dark button {
         background-image: -moz-linear-gradient(top, #6d8f13, #7ca217);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6d8f13), to(#7ca217));
     background-image: -webkit-linear-gradient(top, #6d8f13, #7ca217);
@@ -114,9 +117,12 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
     border-color:#999;
     
     }
-    .buttons.dark a:hover {  
+    .buttons.dark a:hover,
+    .buttons.dark input[type="submit"]:hover, 
+    .buttons.dark input[type="button"]:hover,
+    .buttons.dark button:hover {  
         -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        border-color:#666; border-color:#333;
+        border-color:#666; 
     }
     .buttons.dark a.middle:hover, .buttons.dark a.right:hover { border-left: solid 1px #666 }
 
