@@ -7,7 +7,10 @@
 p {margin-bottom: 10px;}
 
 
-.note {border: 1px solid #ddd; background:#FCFCEB; padding:22px;}
+.note {border: 1px solid #ddd; background:#FCFCEB; padding:22px; line-height:1.4; font-size:14px}
+.note ul {margin-left:22px}
+.note ul li {padding-bottom:5px;}
+
 .note-warning {border: 2px solid #A8A59D; padding:22px; width:644px; background: #FFFBF2; line-height:1.4;}
 .note-warning .fa {font-size:33px; color: #FFC400; float:left; margin-right:12px;}
 .note-warning h1,
@@ -42,9 +45,20 @@ input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
 }
 
 
-/* BUTTONS
+/* Autoscaling images relative to container
 -------------------------------------------------------------------------------------------*/
 
+img {max-width: 100%;height: auto;width: auto\9;}
+
+img.shadow {box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
+-moz-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.16);
+border: 1px solid #ddd;}
+
+
+
+/* BUTTONS
+-------------------------------------------------------------------------------------------*/
 
     .buttons.small a,
     .buttons.small input[type="submit"] { padding: 6px 12px !important;  font-size:11px !important;}
