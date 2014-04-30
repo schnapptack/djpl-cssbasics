@@ -23,30 +23,30 @@ p {margin-bottom: 10px;}
 /* FORM STYLING
 -------------------------------------------------------------------------------------------*/
 
-input[type="text"], input[type="password"], textarea {
-    padding:8px; color:#555; border: 1px solid #ccc; 
-    -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; width:18em;
-}
-input[type="checkbox"] {margin-top:-1px;}
-form label { width: 15em; display:block; font-size:12px;}
+    input[type="text"], input[type="password"], textarea {
+        padding:8px; color:#555; border: 1px solid #ccc; 
+        -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; width:18em;
+    }
+    input[type="checkbox"] {margin-top:-1px;}
+    form label { width: 15em; display:block; font-size:12px;}
 
-.errorlist {color:red; font-size:12px;}
-.errorlist li {list-style:none; margin:0px;}
-.form-row.error input, .form-row.error textarea {border-color:red !important;}
-.errornote {color:red;}
+    .errorlist {color:red; font-size:12px;}
+    .errorlist li {list-style:none; margin:0px;}
+    .form-row.error input, .form-row.error textarea {border-color:red !important;}
+    .errornote {color:red;}
 
-/* focus */
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, 
-input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, 
-input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,
-input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus,
-input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
-    border-color: rgba(82, 168, 236, 0.8); outline: 0; outline: thin dotted 9;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
-    background:#fbfbfb;
-}
+    /* focus */
+    textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, 
+    input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, 
+    input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus,
+    input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus,
+    input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+        border-color: rgba(82, 168, 236, 0.8); outline: 0; outline: thin dotted 9;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+        -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+        background:#fbfbfb;
+    }
 
 
 /* Autoscaling images relative to container
