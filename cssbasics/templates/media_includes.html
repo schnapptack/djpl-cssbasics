@@ -5,5 +5,12 @@
     {{ block.super }}
     <link href="{{STATIC_URL}}cssbasics/reset.css" type="text/css" rel="stylesheet">
     <link href="{{STATIC_URL}}cssbasics/styles.css" type="text/css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
 {% endblock %}
+
+
+
+{% block extra %}
+     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+{% endblock %}
+
