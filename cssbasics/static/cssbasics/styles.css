@@ -80,7 +80,7 @@ border: 1px solid #ddd;}
     input[type="submit"], 
     input[type="button"], 
     .buttons button[type="submit"] {
-        font: 12px Helvetica, Arial, sans-serif;text-decoration: none; letter-spacing:normal; color: #666;font-weight:bold;
+        font: 14px Helvetica, Arial, sans-serif;text-decoration: none; letter-spacing:normal; color: #666;font-weight:bold;
         background: #f3f3f3; background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
         background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1)); background-repeat:no-repeat; 
         padding: 15px 38px ;; margin-right: 10px;
@@ -121,7 +121,8 @@ border: 1px solid #ddd;}
 
 
 
-    /* BUTTONS DARK */    
+    /* BUTTONS DARK
+    -------------------------------------------------------------------------------------------*/   
     
      .buttons.dark a,
      .buttons.dark input[type="submit"], 
@@ -156,8 +157,24 @@ border: 1px solid #ddd;}
     .buttons.dark a.middle:hover, .buttons.dark a.right:hover { border-left: solid 1px #666 }
 
 
+    /* BUTTONS orange
+    -------------------------------------------------------------------------------------------*/
 
-
-
-
+    .buttons.orange a,
+    .buttons.orange button,
+    .buttons.orange input[type="submit"] {
+        background-color:#FF9D00;
+        background-image: -moz-linear-gradient(top,#FF9D00, #DB7004);
+        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF9D00), to(#DB7004));
+        background-image: -webkit-linear-gradient(top, #FF9D00, #DB7004);
+        background-image: -o-linear-gradient(top, #FF9D00, #DB7004);
+        background-image: linear-gradient(to bottom, #FF9D00, #DB7004);
+        background-repeat: repeat-x; color:#fff; text-shadow: 0 1px 0 #666;
+    }
+    .buttons.orange a:hover,
+     .buttons.orange button:hover,
+    .buttons.orange input[type="submit"]:hover {  
+        -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    .buttons.orange a.middle:hover, .buttons.orange a.right:hover { border-left: solid 1px #666 }
 
