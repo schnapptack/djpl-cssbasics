@@ -23,7 +23,8 @@ p {margin-bottom: 10px;}
 /* FORM STYLING
 -------------------------------------------------------------------------------------------*/
 
-    input[type="text"], input[type="password"], textarea {
+    input[type="text"], input[type="password"],
+    input[type="email"], input[type="integer"], input[type="float"], textarea {
         padding:8px; color:#555; border: 1px solid #ccc; 
         -webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; width:18em;
     }
@@ -102,6 +103,7 @@ border: 1px solid #ddd;}
 
     .buttons a:hover, input[type="submit"]:hover, button:hover {color: @color-hover; border-color: #999;
         -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2); -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+        text-decoration:none;
     }
 
 
